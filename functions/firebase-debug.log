@@ -1,0 +1,262 @@
+[debug] [2022-12-28T07:16:06.000Z] ----------------------------------------------------------------------
+[debug] [2022-12-28T07:16:06.003Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Uporabnik\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2022-12-28T07:16:06.004Z] CLI Version:   11.19.0
+[debug] [2022-12-28T07:16:06.004Z] Platform:      win32
+[debug] [2022-12-28T07:16:06.005Z] Node Version:  v18.12.1
+[debug] [2022-12-28T07:16:06.006Z] Time:          Wed Dec 28 2022 08:16:06 GMT+0100 (Srednjeevropski standardni čas)
+[debug] [2022-12-28T07:16:06.006Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-28T07:16:06.012Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-12-28T07:16:06.196Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-28T07:16:06.197Z] > authorizing via signed-in user (tikom99@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2022-12-28T07:16:06.214Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-28T07:16:06.215Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2022-12-28T07:16:06.228Z] [hub] writing locator at C:\Users\UPORAB~1\AppData\Local\Temp\hub-mealstogo-ec349.json
+[debug] [2022-12-28T07:16:06.255Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-28T07:16:06.256Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2022-12-28T07:16:06.256Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[info] +  functions: Using node@18 from host. {"metadata":{"emulator":{"name":"functions"},"message":"Using node@18 from host."}}
+[debug] [2022-12-28T07:16:06.303Z] defaultcredentials: writing to file C:\Users\Uporabnik\AppData\Roaming\firebase\tikom99_gmail_com_application_default_credentials.json
+[debug] [2022-12-28T07:16:06.317Z] Setting GAC to C:\Users\Uporabnik\AppData\Roaming\firebase\tikom99_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\Uporabnik\\AppData\\Roaming\\firebase\\tikom99_gmail_com_application_default_credentials.json"}}
+[debug] [2022-12-28T07:16:06.318Z] > refreshing access token with scopes: []
+[debug] [2022-12-28T07:16:06.319Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-12-28T07:16:06.319Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-28T07:16:06.640Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-12-28T07:16:06.640Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-12-28T07:16:06.648Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mealstogo-ec349/adminSdkConfig [none]
+[debug] [2022-12-28T07:16:06.683Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-12-28T07:16:06.683Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-12-28T07:16:07.082Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mealstogo-ec349/adminSdkConfig 200
+[debug] [2022-12-28T07:16:07.082Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mealstogo-ec349/adminSdkConfig {"projectId":"mealstogo-ec349","storageBucket":"mealstogo-ec349.appspot.com"}
+[debug] [2022-12-28T07:16:07.118Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2022-12-28T07:16:07.118Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2022-12-28T07:16:07.119Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\Uporabnik\\.cache\\firebase\\emulators\\ui-v1.11.1\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\Uporabnik\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.1\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2022-12-28T07:16:07.330Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2022-12-28T07:16:07.331Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "C:\Users\Uporabnik\Desktop\projects\MealsToGo\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\" for Cloud Functions..."}}
+[debug] [2022-12-28T07:16:07.398Z] Validating nodejs source
+[debug] [2022-12-28T07:16:10.199Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^4.1.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-12-28T07:16:10.200Z] Building nodejs source
+[debug] [2022-12-28T07:16:10.202Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-12-28T07:16:10.597Z] Serving at port 9005
+
+[debug] [2022-12-28T07:16:11.015Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-12-28T07:16:11.028Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[info] +  functions[us-central1-geocode]: http function initialized (http://127.0.0.1:5001/mealstogo-ec349/us-central1/geocode). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/mealstogo-ec349/us-central1/geocode)."}}
+[info] +  functions[us-central1-placesNearby]: http function initialized (http://127.0.0.1:5001/mealstogo-ec349/us-central1/placesNearby). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/mealstogo-ec349/us-central1/placesNearby)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2022-12-28T07:34:29.981Z] File C:\Users\Uporabnik\Desktop\projects\MealsToGo\functions\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\index.js changed, reloading triggers"}}
+[debug] [2022-12-28T07:34:30.995Z] Validating nodejs source
+[debug] [2022-12-28T07:34:37.942Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^4.1.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-12-28T07:34:37.942Z] Building nodejs source
+[debug] [2022-12-28T07:34:37.944Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-12-28T07:34:37.988Z] File C:\Users\Uporabnik\Desktop\projects\MealsToGo\functions\places\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\places\\index.js changed, reloading triggers"}}
+[debug] [2022-12-28T07:34:38.615Z] Serving at port 9005
+
+[debug] [2022-12-28T07:34:38.999Z] Validating nodejs source
+[debug] [2022-12-28T07:34:41.684Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^4.1.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-12-28T07:34:41.684Z] Building nodejs source
+[debug] [2022-12-28T07:34:41.685Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-12-28T07:34:41.713Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-12-28T07:34:41.735Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2022-12-28T07:34:42.236Z] Serving at port 9006
+
+[debug] [2022-12-28T07:34:42.835Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-12-28T07:34:42.844Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2022-12-28T07:34:43.085Z] File C:\Users\Uporabnik\Desktop\projects\MealsToGo\functions\places\mock\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\places\\mock\\index.js changed, reloading triggers"}}
+[debug] [2022-12-28T07:34:44.086Z] Validating nodejs source
+[debug] [2022-12-28T07:34:46.369Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^4.1.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-12-28T07:34:46.369Z] Building nodejs source
+[debug] [2022-12-28T07:34:46.370Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-12-28T07:34:46.831Z] Serving at port 9005
+
+[debug] [2022-12-28T07:34:47.363Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-12-28T07:34:47.373Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2022-12-28T07:34:54.474Z] File C:\Users\Uporabnik\Desktop\projects\MealsToGo\functions\geocode\index.js changed, reloading triggers {"metadata":{"emulator":{"name":"functions"},"message":"File C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\geocode\\index.js changed, reloading triggers"}}
+[debug] [2022-12-28T07:34:55.483Z] Validating nodejs source
+[debug] [2022-12-28T07:34:58.650Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "firebase-admin": "^10.0.2",
+    "firebase-functions": "^4.1.1"
+  },
+  "devDependencies": {
+    "firebase-functions-test": "^0.2.0"
+  },
+  "private": true
+}
+[debug] [2022-12-28T07:34:58.650Z] Building nodejs source
+[debug] [2022-12-28T07:34:58.651Z] Could not find functions.yaml. Must use http discovery
+[debug] [2022-12-28T07:34:59.232Z] Serving at port 9005
+
+[debug] [2022-12-28T07:34:59.831Z] Got response from /__/functions.yaml {"endpoints":{"geocode":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"geocode"},"placesNearby":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"placesNearby"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2022-12-28T07:34:59.843Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: geocode, placesNearby. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: geocode, placesNearby."}}
+[debug] [2022-12-28T07:39:41.300Z] [work-queue] {"queuedWork":["/mealstogo-ec349/us-central1/geocode-2022-12-28T07:39:41.300Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2022-12-28T07:39:41.301Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mealstogo-ec349/us-central1/geocode-2022-12-28T07:39:41.300Z"],"workRunningCount":1}
+[debug] [2022-12-28T07:39:41.301Z] Accepted request GET /mealstogo-ec349/us-central1/geocode?city= --> us-central1-geocode
+[debug] [2022-12-28T07:39:41.309Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-12-28T07:39:41.309Z] [functions] Got req.url=/mealstogo-ec349/us-central1/geocode?city=, mapping to path=/?city= {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-ec349/us-central1/geocode?city=, mapping to path=/?city="}}
+[debug] [2022-12-28T07:39:41.322Z] [worker-pool] addWorker(us-central1-geocode) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-geocode)"}}
+[debug] [2022-12-28T07:39:41.322Z] [worker-pool] Adding worker with key us-central1-geocode, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-geocode, total=1"}}
+[debug] [2022-12-28T07:39:43.657Z] [runtime-status] [26504] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Uporabnik\\\\Desktop\\\\projects\\\\MealsToGo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-12-28T07:39:43.661Z] [runtime-status] [26504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.1.1","resolution":"C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.1.1\",\"resolution\":\"C:\\\\Users\\\\Uporabnik\\\\Desktop\\\\projects\\\\MealsToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2022-12-28T07:39:43.662Z] [runtime-status] [26504] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2022-12-28T07:39:43.663Z] [runtime-status] [26504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.1.1","resolution":"C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.1.1\",\"resolution\":\"C:\\\\Users\\\\Uporabnik\\\\Desktop\\\\projects\\\\MealsToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2022-12-28T07:39:43.991Z] [runtime-status] [26504] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] Checked functions.config() {\"config\":{}}"}}
+[debug] [2022-12-28T07:39:43.991Z] [runtime-status] [26504] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.1.1","resolution":"C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.1.1\",\"resolution\":\"C:\\\\Users\\\\Uporabnik\\\\Desktop\\\\projects\\\\MealsToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2022-12-28T07:39:43.992Z] [runtime-status] [26504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.1.1","resolution":"C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.1.1\",\"resolution\":\"C:\\\\Users\\\\Uporabnik\\\\Desktop\\\\projects\\\\MealsToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2022-12-28T07:39:43.994Z] [runtime-status] [26504] Resolved module firebase-admin {"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Uporabnik\\\\Desktop\\\\projects\\\\MealsToGo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2022-12-28T07:39:44.000Z] [runtime-status] [26504] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.1.1","resolution":"C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.1.1\",\"resolution\":\"C:\\\\Users\\\\Uporabnik\\\\Desktop\\\\projects\\\\MealsToGo\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2022-12-28T07:39:44.000Z] [runtime-status] [26504] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"10.3.0","resolution":"C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"10.3.0\",\"resolution\":\"C:\\\\Users\\\\Uporabnik\\\\Desktop\\\\projects\\\\MealsToGo\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2022-12-28T07:39:44.021Z] [runtime-status] [26504] Functions runtime initialized. {"cwd":"C:\\Users\\Uporabnik\\Desktop\\projects\\MealsToGo\\functions","node_version":"18.12.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] Functions runtime initialized. {\"cwd\":\"C:\\\\Users\\\\Uporabnik\\\\Desktop\\\\projects\\\\MealsToGo\\\\functions\",\"node_version\":\"18.12.1\"}"}}
+[debug] [2022-12-28T07:39:44.022Z] [runtime-status] [26504] Listening to port: \\?\pipe\fire_emu_51a68d2cd2cc43a7 {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"[runtime-status] [26504] Listening to port: \\\\?\\pipe\\fire_emu_51a68d2cd2cc43a7"}}
+[debug] [2022-12-28T07:39:44.058Z] [worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: IDLE"}}
+[debug] [2022-12-28T07:39:44.058Z] [worker-pool] submitRequest(triggerId=us-central1-geocode) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-geocode)"}}
+[debug] [2022-12-28T07:39:44.059Z] [worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: BUSY"}}
+[info] i  functions: Beginning execution of "geocode" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Beginning execution of \"geocode\""}}
+[debug] [2022-12-28T07:39:44.067Z] [worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: IDLE"}}
+[debug] [2022-12-28T07:39:44.068Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] i  functions: Finished "geocode" in 3.5036ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Finished \"geocode\" in 3.5036ms"}}
+[debug] [2022-12-28T07:39:57.932Z] [work-queue] {"queuedWork":["/mealstogo-ec349/us-central1/geocode-2022-12-28T07:39:57.932Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2022-12-28T07:39:57.933Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/mealstogo-ec349/us-central1/geocode-2022-12-28T07:39:57.932Z"],"workRunningCount":1}
+[debug] [2022-12-28T07:39:57.933Z] Accepted request GET /mealstogo-ec349/us-central1/geocode?city=chicago --> us-central1-geocode
+[debug] [2022-12-28T07:39:57.940Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2022-12-28T07:39:57.941Z] [functions] Got req.url=/mealstogo-ec349/us-central1/geocode?city=chicago, mapping to path=/?city=chicago {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/mealstogo-ec349/us-central1/geocode?city=chicago, mapping to path=/?city=chicago"}}
+[debug] [2022-12-28T07:39:57.941Z] [worker-pool] submitRequest(triggerId=us-central1-geocode) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-geocode)"}}
+[debug] [2022-12-28T07:39:57.941Z] [worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: BUSY {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: BUSY"}}
+[info] i  functions: Beginning execution of "geocode" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Beginning execution of \"geocode\""}}
+[debug] [2022-12-28T07:39:57.947Z] [worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: IDLE {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: IDLE"}}
+[debug] [2022-12-28T07:39:57.947Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
+[info] i  functions: Finished "geocode" in 3.5384ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-geocode"},"extension":{},"message":"Finished \"geocode\" in 3.5384ms"}}
+[debug] [2022-12-28T10:24:57.432Z] [worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: exited {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: exited"}}
+[debug] [2022-12-28T10:24:57.441Z] [worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: FINISHED {"metadata":{"emulator":{"name":"functions"},"message":"[worker-us-central1-geocode-35285bde-4a5d-492d-9d1c-83a480b303d6]: FINISHED"}}
